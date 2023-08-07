@@ -85,12 +85,13 @@ body {
 }
 
 .menuOpen .open img {
-  filter: invert(1);
+  /* filter: invert(1); */
   display: block;
   transition: 0.6s;
   cursor: pointer;
-
+  /* background: rgba(233, 154, 37, 0.582); */
 }
+
 
 .menuOpen .open:hover img {
   filter: invert(0);
@@ -104,7 +105,7 @@ body {
   right: 0;
   width: 100%;
   height: 100%;
-  z-index: 100;
+  z-index: 1000;
   background-color: #eee;
 
 }
@@ -298,31 +299,70 @@ header {}
 /* 팝업창 */
 
 
-.notice{
-  position:fixed;
-  top: 100px; left: 100px;
-  padding: 20px;
-  border: 1px solid #ccc;
+
+/* 팝업창 */
+.popup{
+  position: fixed;
+  top: 19%; left: 3%;
   background: rgba(255,255,255,0.7);
   border: 1px solid #444;
   padding: 50px;
   z-index: 9999;
   border-radius: 5px;
-}
-.notice .close{
-  position: absolute;
-  bottom: 50px;
-  right: 100px;
-}
 
-.popTxt p{
+}
+.popup .popTxt p{
   font-size: 16px;
   line-height: 35px;
 }
-.popTxt p strong{
+.popup .popTxt p strong{
   color: #ff922a;
 }
 
+.popup form{
+  margin-top: 35px;
+  font-size: 14px;
+  width: 100%;
+  background: rgba(254,172,95,0.5);
+  border-radius: 5px;
+  color: #444;
+}
+.popup form input[type="checkbox"]{
+  display: none;
+}
+.popup form input[type="checkbox"] + label{
+  position: relative;
+  display: inline-block;
+  width: 15px; height: 15px;
+  border: 1px solid #444;
+  vertical-align: middle;
+  margin: 0 15px 0 20px;
+  cursor: pointer;
+}
+.popup form input[id="check"]:checked + label:after{
+  content: '\f00c';
+  position: absolute;
+  top: -1px; left: 0;
+  font-size: 12px;
+  width: 15px; height: 15px;
+  text-align: center;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+.popup form span.close{
+  position: relative;
+  display: inline-block;
+  margin-left: 40px;
+  padding: 10px;
+  cursor: pointer;
+}
+.popup form span.close::after{
+  position: absolute;
+  top: 12px; left: -18px;
+  content: '';
+  width: 1px; height: 45%;
+  background: #777;
+}
 
 
 
@@ -1174,9 +1214,12 @@ body.on {
 
 
 
-#contact{}
-.contact{}
+#contact{
+  height: 600vh;
+}
 .contact iframe{
+  position: sticky;
+  top: 0;
   border-radius: 50px;
   border: none;
 

@@ -81,6 +81,8 @@ $('.animate').scrolla({
 });
 
 
+
+
 // menu
 // $(".menuOpen .open").on("click",function(){})
 $(".menuOpen .open").click(function (e) {
@@ -94,9 +96,13 @@ $(".menuWrap .close").click(function (e) {
 
 
 $(".menuWrap ul li").click(function (e) {
-    e.preventDefault();
+   // e.preventDefault();
     $(".menuOpen .menuWrap").removeClass("on")
 });
+
+
+
+
 
 // //background-color 변경
 
