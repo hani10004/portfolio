@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        //쿠키를 생성시 필수항목- 쿠키이름과 소멸시기
+        //쿠키이름-cookieName
+        //쿠키의 소멸시기 expires
+        //쿠키를 만들때 시간 UTC협정세계시를 사용한다.
+
+        //오늘의 날짜
+        let date=new Date();
+        //console.log(date)
+        //console.log(date.getDate())//오늘의 날짜만
+        //console.log(date.getDate()+7)//오늘의 날짜에 7일을 더한다.
+
+        //날짜를 지정한다. 변수.setDate(새로운 날짜)
+        date.setDate(date.getDate()+7)
+        //console.log(date)
+
+        //쿠키생성
+        let setCookie="";
+        setCookie +='CookieName=green; ';
+        setCookie +='expires='+date.toUTCString();//UTC협정세계시
+        console.log(setCookie)
+
+        //쿠키에 저장하기
+        document.cookie=setCookie;
+    </script>
+</body>
+</html>

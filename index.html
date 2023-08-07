@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>haniPORT</title>
+  <!-- slick -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+
+</head>
+
+<body>
+  <div id="bodyWrap">
+    <div class="menuOpen">
+      <button class="open">
+        <img src="imgs/menuOpen.svg" alt="메뉴열기">
+      </button>
+      <div class="menuWrap">
+        <a href="#" class="close">
+          <img src="imgs/close.svg" alt="닫기">
+        </a>
+        <a href="#" class="close en">close</a>
+        <ul class="tit en animate" data-animate="motion">
+          <li><a href="#home">
+              <span><b>HOME</b></span>
+            </a></li>
+          <li><a href="#aboutme">
+              <span><b>ABOUT ME</b></span>
+            </a></li>
+          <li><a href="#portfolio">
+              <span><b>PORTFOLIO</b></span>
+            </a></li>
+          <li><a href="#contact">
+              <span><b>CONTACT</b></span>
+            </a></li>
+        </ul>
+      </div>
+    </div><!-- //menuOpen -->
+
+    <!--// header 헤더영역시작 -->
+    <header>
+      <div class="innerheader clearfix">
+        <h1 class="logo">
+          <a href="index.html">
+            HANI BAN
+          </a>
+        </h1><!-- logo -->
+        <nav class="mainmemu">
+          <span class="bar"></span>
+          <ul class="gnb en">
+            <li><a href="#aboutme">ABOUT ME</a></li>
+            <li><a href="#portfolio">PORTFOLIO</a></li>
+            <li><a href="#contact ">CONTACT</a></li>
+          </ul>
+
+          <!--mainmemu  -->
+      </div><!-- innerheader -->
+    </header>
+    <!--// header  헤더영역끝-->
+
+    <!-- main 메인영역시작 -->
+    <div class="notice en_k">
+      <div class="popTxt">
+        <p>
+            방문해주셔서 감사합니다. <br>
+            본 포트폴리오는 반응형이아닌 <br>
+            <strong>크롬</strong>브라우저의 <strong>"1920 x 1080"</strong>해상도 에 <br>
+            최적화된 사이즈입니다.
+        </p>
+    </div><!-- //popTxt -->
+
+      <input type="checkbox" id="cb">
+      <label class="hide" for="cb">7일간 보이지 않기</label>
+      <a href="#"class="close">닫기</a>
+  </div>
+
+    <main>
+      <!--home 인트로 섹션시작  -->
+      <section id="home " class="home clearfix">
+        <div class="mainImg">
+          <p class="img animate" data-animate="motion">
+            <img src="imgs/mainImg.png" alt="">
+          </p><!-- img -->
+        </div> <!-- //mainImg -->
+
+        <div class="mainText">
+          <h2 class="tit animate" data-animate="motion">
+            <span class="en_s"><b>2023 Web Publisher | Designer </b> </span>
+            <span class="en"><b>BAN HA EUN</b></span>
+            <span class="colored en"><b>PORTFOLIO</b></span>
+          </h2><!-- tit -->
+          <div class="txt animate" data-animate="motion">
+            <p><b> </b></p>
+            <p><b> </b></p>
+
+          </div><!-- txt -->
+        </div><!-- //mainText -->
+      </section>
+      <!-- home 인트로 섹션끝-->
+
+      <!-- aboutme 어바웃섹션시작 -->
+      <section id="aboutme" class="aboutme">
+
+        <div class="about_title sc_title">
+          <h2 class="tit en animate " data-animate="motion">
+            <span class="en"><b>ABOUT ME</b></span>
+          </h2>
+        </div><!-- // about_title  -->
+
+        <div class="aboutTop clearfix">
+
+          <div class="clickmeEff">
+            <span class="en_s"> </span>
+          </div><!-- clickmeEff -->
+
+
+          <div class="ballon en_s">Click Me !</div>
+          <!-- <img src="imgs/skill_img1.png" alt="deco_img" class="about_deco_img"> -->
+
+          <img src="imgs/about_leaf02.png" alt="about_leaf_img" class="about_leaf02"><!-- bottop_right -->
+
+
+          <img src="imgs/leaf2.png" alt="about_leaf_img" class="about_leaf">
+          <!--top_left -->
+
+          <!-- <img src="imgs/rotate.png" alt="keyframe_img" class="about_keyframe_img"> -->
+
+
+
+          <!-- ***svg*** -->
+          <img src="SVG/about_profImgTxt.svg" alt="about_profImgTxt" class="about_profImgTxt">
+          <!-- ***svg*** -->
+          <div id="about_changable_wrap">
+            <div class="about_profImg" alt="changable_mainImage" id="imgClick">
+
+              <img src="imgs/about_profImg.JPG" class="profile_img" id="myImg">
+            </div><!-- // about_profImg -->
+          </div><!-- about_changable_wrap -->
+
+          <div class="about_proftxt en_k">
+            <div class="proftxt_desc">
+              <ul class="profile">
+                <h3 class="en"># 01 PROFILE</h3>
+                <li>이름 반하은</li>
+                <li> 생년월일 1995 - 10 - 17 </li>
+              </ul>
+              <ul class="education">
+                <h3 class="en"># 02 EDUCATION</h3>
+                <li>
+                  [그린컴퓨터아카데미]반응형 웹디자인(UIUX) &
+                  <br /> 웹퍼블리셔 디지털 실무 양성과정 이수 2022.04 ~ 2022.08
+                </li>
+                <li>
+                  신라대학교 귀금속 보석디자인학과 졸업 2020.02 </li>
+              </ul>
+              <ul class="certificate">
+                <h3 class="en"># 3 CERTIFICATE</h3>
+                <li> GTQ 그래픽 마스터 </li>
+                <li> 웹디자인기능사 필기 </li>
+                <li> MOS(Microsoft Office Specialist) </li>
+                <li> 무역영어1급 </li>
+                <li> 자동차운전면허 2종 보통 </li>
+              </ul>
+            </div><!-- //proftxt_desc -->
+          </div><!-- //about_proftxt -->
+        </div><!-- //  aboutTop -->
+
+        <div class="about_bottom en_k">
+          <div class="keyword RESILIENCE">
+            <img src="gif/book.gif" alt="gif_icon">
+            <div class="keyword_txt ">
+              <p><b>꾸준하게</b></p>
+              <p>관심을 갖고 </p>
+              <p> 유연하게</p>
+              <p class="txtBig en">
+                <b>RESILIENCE</b></p>
+            </div>
+          </div><!-- RESILIENCE -->
+          <div class="keyword COMMUNICATION">
+            <img src="gif/handshake-gif.gif" alt="gif_icon">
+            <div class="keyword_txt">
+              <p><b>협동하며 </b></p>
+              <p> 다양한 생각과 시각을 <br />
+                받아들이는 자세로</p>
+              <p>상대방의 의견을 존중하며</p>
+              <p class="txtBig en">
+                <b>COMMUNICATION</b></p>
+            </div>
+          </div><!-- COMMUNICATION -->
+
+          <div class="keyword GROWTH">
+            <img src="gif/browser-gif.gif" alt="gif_icon">
+            <div class="keyword_txt">
+              <p><b>부지런하게</b></p>
+              <p>노력하며 </p>
+              <p> 뒤쳐지지 않게 </p>
+              <p class="txtBig en">
+                <b>GROWTH</b></p>
+            </div>
+          </div>
+          <div class="keyword CREATIVITY">
+            <img src="gif/paint.gif" alt="gif_icon">
+            <div class="keyword_txt">
+              <p><b>창의적으로</b></p>
+              <p>나만의 디자인으로</p>
+              <p> 남들이 따라 하고싶게</p>
+              <p class="txtBig en">
+                <b>CREATIVITY</b></p>
+            </div>
+          </div>
+        </div> <!-- about_bottom -->
+
+        <div class="cube_wrapper">
+          <div class="cube_box-area">
+            <div class="cube_box box-front">
+              <h2></h2><!-- 1 -->
+            </div>
+            <div class="cube_box box-right">
+              <h2></h2><!-- 2 -->
+            </div>
+            <div class="cube_box box-back">
+              <h2></h2><!-- 3 -->
+            </div>
+            <div class="cube_box box-left">
+              <h2></h2><!-- 4 -->
+            </div>
+            <div class="cube_box box-top">
+              <h2></h2><!-- 5 -->
+            </div>
+            <div class="cube_box box-bottom">
+              <h2></h2><!-- 6 -->
+            </div>
+          </div><!-- cube_box-area -->
+        </div><!-- cube_wrapper -->
+      </section>
+      <!-- aboutme 어바웃섹션끝-->
+
+
+
+      <!-- about_skill 스킬 섹션시작-->
+      <section id="about_skill" class="about_skill  en">
+
+        <img src="imgs/skill_img2.png" alt="deco_img2_note" class="skill_deco_img2">
+        <img src="imgs/skill_img3.png" alt="deco_img3_leaf" class="skill_deco_img3">
+        <img src="imgs/skill_img4.png" alt="deco_img4_star" class="skill_deco_img4">
+
+
+        <div class="about_skill sc_title ">
+          <h2 class="tit en animate " data-animate="motion">
+            <span><b>SKILL</b></span>
+          </h2>
+        </div><!-- aboutSkill_title -->
+        <div class="easypiechart">
+          <div class="container">
+            <div class="box">
+              <div class="chart" data-percent="90"></div>
+              <h2>HTML</h2>
+              <h3 data-rate="90">90</h3>
+            </div><!-- //box -->
+            <div class="box">
+              <div class="chart" data-percent="90"></div>
+              <h2>CSS</h2>
+              <h3 data-rate="90">90</h3>
+            </div><!-- //box -->
+            <div class="box">
+              <div class="chart" data-percent="80"></div>
+              <h2>JavaScript</h2>
+              <h3 data-rate="80">80</h3>
+            </div><!-- //box -->
+            <div class="box">
+              <div class="chart" data-percent="80"></div>
+              <h2>JQUERY</h2>
+              <h3 data-rate="80">80</h3>
+            </div><!-- //box -->
+            <div class="box">
+              <div class="chart" data-percent="90"></div>
+              <h2>Figma</h2>
+              <h3 data-rate="90">90</h3>
+            </div><!-- //box -->
+            <div class="box">
+              <div class="chart" data-percent="90"></div>
+              <h2>Illustrator</h2>
+              <h3 data-rate="90">90</h3>
+            </div><!-- //box -->
+            <div class="box">
+              <div class="chart" data-percent="90"></div>
+              <h2>Photoshop</h2>
+              <h3 data-rate="90">90</h3>
+            </div><!-- //box -->
+            <div class="box">
+              <div class="chart" data-percent="90"></div>
+              <h2>Indesign</h2>
+              <h3 data-rate="90">90</h3>
+            </div><!-- //box -->
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+
+      <!-- about_skill 스킬섹션끝-->
+
+      <!-- portfolio 포트폴리오 섹션시작-->
+      <section id="portfolio" class="portfolio clearfix">
+        <div class="hover_bubble en_s">Hover Me !</div>
+
+        <div class="portfolio_title  sc_title">
+          <h2 class="tit en animate " data-animate="motion">
+            <span class="en"><b>PORTFOLIO</b></span>
+          </h2>
+        </div><!-- // portfolio_title  -->
+
+        <div class="history">
+          <div class="history_story">
+            <div class="container">
+
+              <div class="history_btn en">
+                <ul class="clearfix">
+                  <li class="active">
+                    <a href="#">Responsive </a>
+                  </li>
+                  <li>
+                    <a href="#">Web Site</a>
+                  </li>
+                </ul>
+              </div><!-- history_btn -->
+
+              <div class="history_slide_wrap clearfix">
+                <div class="history_slide clearfix">
+
+                  <div class="Pdevice Pdevice1">
+                    <img src="imgs/iMac copy.png" class="PMac">
+                    <div class="Pmonitor_wrap"></div><!-- //Pmonitor_wrap -->
+                    <div class="desc resp">
+                      <h3> 반응형 메가박스</h3>
+                      <p class="desc_info">
+                        iframe api를 연결하여 Youtube 영상을 재생할 수 있도록 <br />
+                        제작하였습니다. Swiper를 이용한 슬라이더 무비차트와 탭메<br />
+                        뉴를 이용한 공지사항 및 해상도에 따른 이미지 적용을 이용한 반응형
+                        웹 사이트입니다.
+                      </p><!-- desc_info -->
+                      </br>
+                      <p class="desc_info_txt">제작기간 &nbsp; <span>10 일</span> </p>
+                      <p class="desc_info_txt">구분 &nbsp; <span>반응형</span> </p>
+                      <p class="desc_info_txt">사용언어 &nbsp; <span>html , css , javascript </span> </p>
+                      <hr id="port_border_line">
+
+
+                      <div class="web_btn">
+                        <a href="javascript:void(0)"
+                          onclick="window.open('https://megaboxresponsiveweb.netlify.app/','메가박스 모바일 전용', 'width=400, height=818, top=100, left=300, resizeable=no' )"
+                          style="user-select:auto;">MOBILE 버전 </a>
+                        <a href="javascript:void(0)"
+                          onclick="window.open('https://megaboxresponsiveweb.netlify.app/','메가박스 모바일 전용', 'width=780, height=818, top=100, left=300, resizeable=no' )"
+                          style="user-select:auto;">TABLET 버전 </a>
+                        <a href="https://megaboxresponsiveweb.netlify.app/" target="_blank"
+                          style="user-select: auto;">WEB 버전</a>
+
+                      </div><!-- 메가박스 웹버튼  -->
+
+                    </div><!-- desc 설명박스 -->
+                  </div>
+                  <!--// Pdevice1 매가박스-->
+
+                  <div class="Pdevice Pdevice2">
+                    <img src="imgs/iMac copy.png" class="PMac">
+                    <div class="Pmonitor_wrap">
+                    </div><!-- //Pmonitor_wrap -->
+
+                    <div class="desc">
+                      <h3>반응형 웹 표준 사이트</h3>
+                      <p class="desc_info">
+                        inframe태그를 이용하여 youtube 영상을 연결하고, </br>
+                        CSS3의 transform 을 이용한 마우스오버효과, filter efftect와
+                        해상도에 따른 이미지 적용 을 이용한 웹 사이트 입니다.
+                      </p>
+                      </br>
+                      <p class="desc_info_txt">제작기간 &nbsp; <span>7 일</span> </p>
+                      <p class="desc_info_txt">구분 &nbsp; <span>반응형</span> </p>
+                      <p class="desc_info_txt">사용언어 &nbsp; <span>html , css , javascript </span> </p>
+                      <hr id="port_border_line">
+
+                      <div class="web_btn">
+                        <a href="javascript:void(0)"
+                          onclick="window.open('https://haniresponsivesite.netlify.app/','웹 표준 사이트 모바일 전용', 'width=400, height=818, top=100, left=300, resizeable=no' )"
+                          style="user-select:auto;">Mobile 버전 </a>
+                        <a href="javascript:void(0)"
+                          onclick="window.open('https://haniresponsivesite.netlify.app/','웹 표준 사이트 모바일 전용', 'width=780, height=818, top=100, left=300, resizeable=no' )"
+                          style="user-select:auto;">Tablet 버전</a>
+                        <a href="https://haniresponsivesite.netlify.app/" target="_blank" style="user-select: auto;">Web
+                          버전</a>
+                      </div><!-- 반응형 웹 표준 사이트 -->
+
+                    </div><!-- desc 설명박스 -->
+
+                  </div>
+                  <!--// Pdevice2 반응형 웹 표준 사이트 -->
+
+                  <div class="Pdevice Pdevice3">
+                    <img src="imgs/iMac copy.png" class="PMac">
+                    <div class="Pmonitor_wrap">
+                    </div><!-- //Pmonitor_wrap -->
+                    <div class="desc">
+                      <h3>반응형 스시 레스토랑 웹사이트</h3>
+                      <p class="desc_info">
+                        CSS와 API 이용하여 스크롤 애니메이션 적용,
+                        GRID, FREX를 이용한 요소 정
+                        </br>
+                        JavaScript를 사용하여 다크/라이트 모드 적용을
+                        </br>
+                        사용한 반응형 스시 레스토랑 웹사이트 디자인입니다
+                        </br>
+                      </p><!-- desc_info -->
+                      </br>
+                      <p class="desc_info_txt">제작기간 &nbsp; <span>10 일</span> </p>
+                      <p class="desc_info_txt">구분 &nbsp; <span>반응형</span> </p>
+                      <p class="desc_info_txt">사용언어 &nbsp; <span>html , css , javascript </span> </p>
+                      <hr id="port_border_line">
+
+                      <div class="web_btn">
+                        <a href="javascript:void(0)"
+                          onclick="window.open('https://sushiresponsiveweb.netlify.app/','웹 표준 사이트 모바일 전용', 'width=400, height=818, top=100, left=300, resizeable=no' )"
+                          style="user-select:auto;">Mobile 버전 </a>
+                        <a href="javascript:void(0)"
+                          onclick="window.open('https://sushiresponsiveweb.netlify.app/','웹 표준 사이트 모바일 전용', 'width=780, height=818, top=100, left=300, resizeable=no' )"
+                          style="user-select:auto;">Tablet 버전 </a>
+                        <a href="https://sushiresponsiveweb.netlify.app/" target="_blank" style="user-select: auto;">Web
+                          버전</a>
+
+                      </div><!--  스시 레스토랑 -->
+                    </div><!-- desc 설명박스 -->
+                  </div>
+                  <!--// Pdevice3   스시 레스토랑-->
+
+
+                  <div class="Pdevice Pdevice4">
+                    <img src="imgs/iMac copy.png" class="PMac PMac4">
+                    <div class="Pmonitor_wrap">
+                    </div><!-- //Pmonitor_wrap -->
+
+                    <div class="desc">
+                      <h3>웹 표준 지침서 </br>WEB STANDARD</h3>
+
+                      <p class="desc_info">
+                        웹 표준 지침서를 준수하여 코딩한 웹표준 사이트 입니다. 모든 사용자가 웹사이트이용에
+                        불편이 없도록 대체 텍스트로 웹 접근성을 고려하였습니다, 메뉴, 슬라이드, 탭, 동영상, 팝업 등 동적인 효과를 접목시켜 제작하였습니다.
+                      </p><!-- desc_info -->
+                      </br>
+                      <p class="desc_info_txt">제작기간 &nbsp; <span>10 일</span> </p>
+                      <p class="desc_info_txt">구분 &nbsp; <span>PC</span> </p>
+                      <p class="desc_info_txt">사용언어 &nbsp; <span>html , css , jQuery </span> </p>
+                      <hr id="port_border_line">
+
+                      <div class="web_btn pcVer">
+                        <a href="https://haniwebstandard.netlify.app/" target="_blank" style="user-select: auto;">Web
+                          버전</a>
+
+                      </div><!-- WEBSTANDARD -->
+
+                    </div><!-- desc 설명박스 -->
+                  </div>
+                  <!--//Pdevice4  웹표준지침서__WEBSTANDARD -->
+
+
+                  <div class="Pdevice Pdevice5">
+                    <img src="imgs/iMac copy.png" class="PMac PMac5">
+                    <div class="Pmonitor_wrap ">
+                    </div><!-- //Pmonitor_wrap -->
+                    <div class="desc">
+                      <h3>하나카드</h3>
+                      </p><!-- desc_info -->
+                      </br>
+                      <p class="desc_info_txt">제작기간 &nbsp; <span>10 일</span> </p>
+                      <p class="desc_info_txt">구분 &nbsp; <span>PC</span> </p>
+                      <p class="desc_info_txt">사용언어 &nbsp; <span>html , css , javascript </span> </p>
+                      <hr id="port_border_line">
+
+                      <div class="web_btn pcVer">
+                        <a href="https://hani-hanacard.netlify.app/" target="_blank" style="user-select: auto;">Web
+                          버전</a>
+
+                      </div><!-- PC 웹_하나카드 -->
+                    </div><!-- desc 설명박스 -->
+                  </div>
+                  <!--// Pdevice5 하나카드 웹버튼 -->
+
+                  <div class="Pdevice Pdevice6">
+                    <img src="imgs/iMac copy.png" class="PMac PMac6">
+                    <div class="Pmonitor_wrap">
+                    </div><!-- //Pmonitor_wrap -->
+                    <div class="desc">
+                      <h3>BOOTSTRAP</h3>
+                      <p class="desc_info">
+                        BOOTSTRAP을 활용해 웹사이트를 제작하였습니다.
+                        </br>
+                      </p><!-- desc_info -->
+                      </br>
+                      <p class="desc_info_txt">제작기간 &nbsp; <span>10 일</span> </p>
+                      <p class="desc_info_txt">구분 &nbsp; <span>PC</span> </p>
+                      <p class="desc_info_txt">사용언어 &nbsp; <span>html , css , Bootstrap </span> </p>
+                      <hr id="port_border_line">
+
+                      <div class="web_btn pcVer">
+                        <a href="https://hani-bootstrap.netlify.app/" target="_blank" style="user-select: auto;">
+                          Web버전</a>
+                      </div><!-- BOOTSTRAP 웹버튼-->
+                    </div><!-- desc 설명박스 -->
+                  </div>
+                  <!--// Pdevice6 BOOTSTRAP-->
+
+                  <div class="Pdevice Pdevice7">
+                    <img src="imgs/iMac copy.png" class="PMac PMac7">
+                    <div class="Pmonitor_wrap">
+                    </div><!-- //Pmonitor_wrap -->
+                    <div class="desc">
+                      <h3>NAVER LOGIN PAGE </h3>
+                      <p class="desc_info">
+                        정규식을 사용하여 제작한 NAVER 로그인 웹페이지 입니다.
+                      </p><!-- desc_info -->
+                      </br>
+                      <p class="desc_info_txt">제작기간 &nbsp; <span>10 일</span> </p>
+                      <p class="desc_info_txt">구분 &nbsp; <span>PC</span> </p>
+                      <p class="desc_info_txt">사용언어 &nbsp; <span>html , css , javascript </span> </p>
+                      <hr id="port_border_line">
+
+                      <div class="web_btn pcVer">
+                        <a href="https://hani-naver.netlify.app/" target="_blank" style="user-select: auto;">
+                          Web 버전</a>
+                      </div><!-- NAVER -->
+                    </div><!-- desc 설명박스 -->
+
+                  </div>
+                  <!--// Pdevice7 NAVER-->
+
+
+
+                  <div class="Pdevice Pdevice8">
+                    <img src="imgs/iMac copy.png" class="PMac PMac8">
+                    <div class="Pmonitor_wrap">
+                    </div><!-- //Pmonitor_wrap -->
+
+                    <div class="desc">
+                      <h3>MALL EVENT PAGE</h3>
+                      <p class="desc_info">
+                        SCSS이용하여 제작한 MALL 이벤트 페이지 입니다.
+                      </p><!-- desc_info -->
+                      </br>
+                      <p class="desc_info_txt">제작기간 &nbsp; <span>10 일</span> </p>
+                      <p class="desc_info_txt">구분 &nbsp; <span>PC</span> </p>
+                      <p class="desc_info_txt">사용언어 &nbsp; <span>html , scss , javascript </span> </p>
+                      <hr id="port_border_line">
+
+                      <div class="web_btn pcVer">
+                        <a href="https://scssmallevent.netlify.app/" target="_blank" style="user-select: auto;">
+                          Web 버전</a>
+                      </div><!-- SCSS 웹버튼 -->
+                    </div><!-- desc 설명박스 -->
+                  </div>
+                  <!--// Pdevice8 SCSS-->
+
+                </div><!-- // history_slide  -->
+                <!--// history_slide -->
+              </div><!-- //history_slide_wrap -->
+            </div><!-- container -->
+
+          </div><!-- history_story -->
+        </div><!-- history -->
+
+      </section>
+      <!-- portfolio 포트폴리오 섹션끝 -->
+
+
+      <!-- contact 섹션시작-->
+
+      <section id="contact" class="contact clearfix ">
+        <div class="contact_title sc_title">
+          <!-- <h2 class="tit en animate " data-animate="motion">
+            <span class="en"><b>CONTACT</b></span>
+          </h2> -->
+          <iframe src="3dFace/index.html" width="1720" height="960"></iframe>
+
+      </section>
+      <!-- contact 섹션끝-->
+
+
+
+
+
+
+    </main>
+
+  </div><!-- // bodyWrap -->
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.6/jquery.easypiechart.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  <!-- scrolla -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery-scrolla@0.0.3/dist/js/jquery.scrolla.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+  <script src="/3dFace/script.js"></script>
+  <script src="main.js"></script>
+  <script src="mainScript.js"></script>
+
+</body>
+
+</html>
